@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <input id="error" type="text"> -->
+    <input type="number" id="phoneNumber" />
+    <button type="button" onclick="telephone()">input</button>
+  </body>
+  <script>
+    function telephone() {
+      const we = document.getElementById("phoneNumber").value;
+      if (we == 11) {
+        alert("g");
+      } else {
+        alert("Invalid telephone");
+      }
+    }
+  </script>
+</html>

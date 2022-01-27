@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enact</title>
+    <link rel="stylesheet" href="user.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="user.js" /> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+</head>
+<body>
+     <div class="container-fluid">
+            <div class="time">
+                <h4 class="ti"><strong>TIME: <span id="hour"></span> <span id="minute"></span> <span id="second"></span> </strong></h4>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-9 l-section">
+                       <div class="col-lg-12 t-section">
+                           <h4>QUESTION 1:</h4>
+                           <p class="text">All but one is not a web browser .....</p>
+                          <div class="col-lg-12 f-section">
+                           <input type="radio" name="blue" ><label class="option1"> Chrome</label><br>
+                           <input type="radio" name="blue" ><label class="option1"> Google</label><br>
+                           <input type="radio" name="blue" > <label class="option1"> Opera</label><br>
+                           <input type="radio" name="blue" > <label class="option1"> Mozilla</label>
+                          </div>
+                       </div>
+                    </div>
+                        <div class="col-lg-3 p-section">
+                            <div class="row justify-content-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-person-check-fill" viewBox="0 0 16 16">
+                                            <path d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                                </svg>
+                                    <form>
+                                    <div class="container">
+                                        <div class="row justify-content-center">
+                                                <div class="col-lg-12">
+                                                    <label for="name" class="xlabel">NAME</label><br>
+                                                    <input type="text" class="form-control" id="name" readonly /><br>
+                                                    <label for="course" class="xlabel">COURSE</label><br>
+                                                    <input type="text" class="form-control" id="course" readonly />
+                                                </div>
+                                        </div>
+                                    </div>
+                                        <h6 class="quest">50 Questions</h6>
+                                        <h6 class="quest">Answered <a id="zero"> 0 </a>out of <a id="fifty">50</a></h6>
+                                        <div class="row justify-content-center">
+                                        <button class="btn btn-danger">SUBMIT</button>
+                                    </form>
+                            </div>
+                       </div>
+    
+                </div>
+
+            </div>
+    </div>
+</body>
+<script src="user.js"></script>
+</html>

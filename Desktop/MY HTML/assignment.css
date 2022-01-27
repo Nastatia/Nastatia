@@ -1,0 +1,40 @@
+body{
+    background-image: url(img/GREEN.jpg);
+    height: 70vh;
+    background-attachment: fixed;
+    background-size: cover;
+    color: black;
+}
+.col-lg-5{
+    color: green;
+    height: 500px;
+    background-color: black;
+    margin-top: 150px;
+    margin-left: 400px;
+}
+.sign{
+    font-size: xx-large;
+    font-family: Lusida Sans Regular;
+    padding-top: 20px;
+    padding-left: 60px;
+}
+.col-lg-10{
+    margin: 40px 50px;
+    background-color: black;
+    height: 400px;
+}
+.username{
+padding-left: 20px;
+}
+.password{
+    padding-left: 20px; 
+}
+.email{
+    padding-left: 20px;
+}
+.btn{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+    
+

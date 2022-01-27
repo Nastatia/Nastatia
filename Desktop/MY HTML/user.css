@@ -1,0 +1,56 @@
+ .container-fluid{
+    height: 100vh;
+}
+.time{
+    height: 50px;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+.ti{
+    margin-top: 10px;
+}
+.bi-person-check-fill{
+    margin-top: 30px;
+    width:200px;
+ height:200px;
+ color: black; 
+ fill:"currentColor" ;
+
+}
+.l-section{
+    height: 90vh;
+    background-color: white;
+}
+.t-section{
+    height: 400px;
+    margin-top: 5px;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 20px;
+}
+.f-section{
+    margin-top: 30px;
+    height: 200px;
+
+}
+.text{
+    font-size: xx-large;
+}
+.option1{
+    font-size: 23px;
+    margin-top: 10px;
+}
+.p-section{
+    box-shadow:-4px 0px 4px grey;
+    height: 90vh;
+    background-color: white;
+    color: black;
+}
+.quest{
+    margin-top: 10px;
+    text-align: center;
+}
+.btn{
+    margin-top: 20px;
+}
